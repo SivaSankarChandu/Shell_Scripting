@@ -1,0 +1,62 @@
+3 Modes in VI:
+
+1.Edit Mode
+2.Command Mode
+3.Exit Mode
+
+Esc + :
+Esc + :w -- Save
+Esc + :q -- Exit
+Esc + :q! -- Quit without saving
+Esc + :wq -- Save and Exit
+Esc + :e! -- Reload the file
+
+Esc + :10 --- 10th line
+
+Esc + /find_word --- n (next) --- N (before)
+Esc + ?find_word --- N (before) --- n (next) 
+
+Esc + :1 $ s/old/new/g - Globally Replace word
+Esc + :1 $ s/old/new/ - First Occurance Replace word
+
+Esc + :set nu --- set number
+Esc + :set nonu --- unset number
+
+Command Mode to Edit Mode --- i, I, a, A, o, O -- also we can call Insert mode/ Append Mode/ Open Mode
+Current Cursor Location --- i
+Starting of the line --- I
+Append from the Current Cursor Location --- a
+End of the line --- A
+Opened a new line below of the cursor - o
+Open before Current line - O
+
+HJKL --- Navigation keys
+Page Next / Previous --- 
+
+
+Edit Mode to Command Mode --- Esc --- also we can call Escape Mode
+
+Copy the line --- yy --- 2yy (2lines it will copy)
+Paste the line --- p --- 2p(2 times it will paste)
+
+Replace a character --- r
+Replace multiple charcters until Esc -- R
+
+Last line --- shift+g
+Line Information --- ctrl+g
+
+Change Word --- cw -- 2cw -- ncw
+
+Delete Word -- dw -- 2dw -- ndw
+Delete Line -- dd -- 2dd -- ndd
+Delete Charcter -- x -- 2x -- nx
+
+Undo --- u
+
+Repeat the last command --- .
+
+Change case(UpperCase/Lower) --- ~
+
+First Cloumn of the line --- 0
+Last Column of the line --- $
+
