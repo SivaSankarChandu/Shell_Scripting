@@ -1,0 +1,38 @@
+pwd = To check present working directory
+
+ls = To list contents in the directory
+ls -l = To see full content about the files and folders
+ls -a = By using this we can check hidden files
+ls -ltr = To check reverse order based on the Time 
+ls -lt = To check based on the time
+ls --help = By using this command we can check all the options
+
+date = To check date
+date +%m = Month
+date +%y = Year
+date +%d = Date
+date +%S = Seconds
+date +%M = Minute
+date +%H = Hours
+TZ='Europe/London' date = To check London timezone
+timedatectl list-timezones = To check Timezones information
+timedatectl --help = By using this command we can check all the options
+date --help = By using this command we can check all the options
+
+cal = To check calender
+cal 2021 = To check 2021 year calender
+cal 6 2021 = To check June 2021 Calender
+cal -m 6 2021 = To check June 2021 Calender
+cal -m6 2021 = To check June 2021 Calender
+cal -m 6 = To check sixth month of this year
+cal --help = By using this command we can check all the options
+
+
+mkdir newdirectoryname = To create a new directory
+
+cd newdirectoryname = To go inside the new directory
+
+touch newfilename = To create files
+
+id = user information
+
